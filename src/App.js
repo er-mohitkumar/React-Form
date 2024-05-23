@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Form from './Components/Form';
 import PostSuccessful from './Components/PostSuccessful';
-
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   const [formDetails, setFormDetails] = useState({});
   return (
